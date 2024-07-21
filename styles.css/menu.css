@@ -1,0 +1,54 @@
+.menu {
+  /* padding-bottom: 100px; */
+  max-width: 100%;
+}
+
+.menu__title {
+  text-align: center;
+  margin-bottom: 38px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.menu__cards1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.menu__cards2 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.card__picture {
+  width: 320px;
+}
+.card__name {
+  margin: 14px 0 45px 0;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  transition: 0.8s;
+}
+.card__name:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+@media screen and (max-width:850px) {
+  .menu__cards1{
+    gap: 0;
+  }
+
+  .menu__cards2{
+    gap: 0;
+  }
+  
+}

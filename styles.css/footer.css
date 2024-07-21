@@ -1,0 +1,55 @@
+.footer {
+  background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #eda61d 100%);
+  height: 100%;
+  padding-top: 100px;
+}
+
+.footer-info__wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
+.footer-info__text {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.last__text {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.social__ikons {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.social__ikon-vk {
+  width: 24px;
+  height: 24px;
+}
+.social__ikon-telegram {
+  width: 28px;
+  height: 28px;
+}
+
+@media screen and (max-width: 850px){
+.footer{
+  padding-top: 20px;
+}
+
+  .footer-info__wrapper{
+  gap: 20px;
+} 
+
+}
