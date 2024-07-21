@@ -44,11 +44,11 @@
 
 @media screen and (max-width:850px) {
   .menu__cards1{
-    gap: 0;
+    gap: 20px;
   }
 
   .menu__cards2{
-    gap: 0;
+    gap: 20px;
   }
   
 }

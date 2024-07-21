@@ -43,13 +43,20 @@
   height: 28px;
 }
 
-@media screen and (max-width: 850px){
-.footer{
-  padding-top: 20px;
-}
+@media screen and (max-width: 850px) {
+  .footer {
+    padding-top: 20px;
+  }
 
-  .footer-info__wrapper{
-  gap: 20px;
-} 
-
+  .footer-info__wrapper {
+    gap: 20px;
+  }
+  .social__ikon-vk {
+    width: 44px;
+    height: 44px;
+  }
+  .social__ikon-telegram {
+    width: 48px;
+    height: 48px;
+  }
 }
